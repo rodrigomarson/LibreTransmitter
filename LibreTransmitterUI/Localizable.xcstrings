@@ -1,6 +1,40 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Direct Bluetooth currently supports European Libre 2 and Libre 2 Plus variants. Brazilian and North American Libre 2 variants use different protocols and are not yet supported." : {
+      "comment" : "Label text for step 3 of connection setup",
+      "localizations" : {
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A conexão Bluetooth direta é compatível atualmente com variantes europeias do Libre 2 e Libre 2 Plus. As variantes brasileira e norte-americana usam protocolos diferentes e ainda não são compatíveis."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A conexão Bluetooth direta é compatível atualmente com variantes europeias do Libre 2 e Libre 2 Plus. As variantes brasileira e norte-americana usam protocolos diferentes e ainda não são compatíveis."
+          }
+        }
+      }
+    },
+    "Libre 2 Direct (European variants)" : {
+      "comment" : "Libre 2 connection option",
+      "localizations" : {
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libre 2 Direto (variantes europeias)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libre 2 Direto (variantes europeias)"
+          }
+        }
+      }
+    },
     "" : {
       "extractionState" : "stale",
       "localizations" : {

@@ -22,7 +22,7 @@ struct ModeSelectionView: View {
         Section(header: Text(LocalizedString("Connection options", comment: "Text describing options for connecting to sensor or transmitter"))) {
 
             NavigationLink(destination: Libre2DirectSetup(cancelNotifier: cancelNotifier, saveNotifier: saveNotifier, pairingService: pairingService)) {
-                SettingsItem(title: LocalizedString("Libre 2 Direct", comment: "Libre 2 connection option"))
+                SettingsItem(title: LocalizedString("Libre 2 Direct (European variants)", comment: "Libre 2 connection option"))
                     .actionButtonStyle(.primary)
                     .padding([.top, .bottom], 8)
             }
@@ -51,7 +51,7 @@ struct ModeSelectionView: View {
                     InstructionList(instructions: [
                         LocalizedString("Sensor should be activated and fully warmed up.", comment: "Label text for step 1 of connection setup"),
                         LocalizedString("Select the type of setup you want.", comment: "Label text for step 2 of connection setup"),
-                        LocalizedString("Most libre 1 and libre 2 sensors are supported, except North America Libre 2; see readme.md for details.", comment: "Label text for step 3 of connection setup"),
+                        LocalizedString("Direct Bluetooth currently supports European Libre 2 and Libre 2 Plus variants. Brazilian and North American Libre 2 variants use different protocols and are not yet supported.", comment: "Label text for step 3 of connection setup"),
                         LocalizedString("Fair warning: The sensor will be not be using the manufacturer's algorithm, and some safety mitigations present in the manufacturers algorithm might be missing when you use this.", comment: "Label text for step 4 of connection setup")
                     ])
                 }
