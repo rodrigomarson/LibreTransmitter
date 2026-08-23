@@ -1,6 +1,74 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Brazilian Libre 2 Plus direct connection is not supported yet" : {
+      "comment" : "error description for PairingError.unsupportedLibre2PlusBrazil",
+      "localizations" : {
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A conexão direta com o Libre 2 Plus Brasil ainda não é compatível"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A conexão direta com o Libre 2 Plus Brasil ainda não é compatível"
+          }
+        }
+      }
+    },
+    "Keep the top of the iPhone steadily over the sensor and try the NFC scan again." : {
+      "comment" : "Recovery suggestion for PairingError.incompleteSensorData",
+      "localizations" : {
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantenha a parte superior do iPhone imóvel sobre o sensor e tente a leitura NFC novamente."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantenha a parte superior do iPhone imóvel sobre o sensor e tente a leitura NFC novamente."
+          }
+        }
+      }
+    },
+    "The NFC scan did not read the complete sensor data" : {
+      "comment" : "error description for PairingError.incompleteSensorData",
+      "localizations" : {
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A leitura NFC não obteve todos os dados do sensor"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A leitura NFC não obteve todos os dados do sensor"
+          }
+        }
+      }
+    },
+    "This regional sensor uses a different NFC and Bluetooth protocol. No streaming command was sent and no sensor setting was changed. Continue using the official app or a supported cloud CGM source." : {
+      "comment" : "Recovery suggestion for PairingError.unsupportedLibre2PlusBrazil",
+      "localizations" : {
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este sensor regional usa protocolos NFC e Bluetooth diferentes. Nenhum comando de transmissão foi enviado e nenhuma configuração do sensor foi alterada. Continue usando o aplicativo oficial ou uma fonte CGM em nuvem compatível."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este sensor regional usa protocolos NFC e Bluetooth diferentes. Nenhum comando de transmissão foi enviado e nenhuma configuração do sensor foi alterada. Continue usando o aplicativo oficial ou uma fonte CGM em nuvem compatível."
+          }
+        }
+      }
+    },
     "Could not decrypt sensor contents" : {
       "comment" : "error description for PairingError.decryptionError",
       "localizations" : {
